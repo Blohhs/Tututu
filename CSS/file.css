@@ -1,0 +1,197 @@
+:root { 
+    --buttonColor: #472B37; 
+   } 
+    
+   * { 
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif; 
+   } 
+   .container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+   } 
+   header { 
+    background: #472B37; 
+   } 
+   .logotext { 
+    justify-content: left; 
+    color: #ffffff; 
+    font-size: 35px; 
+    position: relative;
+   } 
+   .header_content { 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 0; 
+   } 
+    
+   .navList { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0; 
+    padding-right: 200px; 
+    list-style: none; 
+    gap: 30px; 
+    font-size: 20px; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+   } 
+    
+   .navLink { 
+    text-decoration: none; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+    color: #ffffff; 
+   } 
+   
+   h1 { 
+    color: #ffffff;
+    text-align: center; 
+    font-size: 32px; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+} 
+    
+   .containerBg { 
+    background-image: url("https://cdnn1.img.crimea.ria.ru/img/111567/36/1115673692_0:47:960:592_600x0_80_0_0_b823392c35de7146834ac4948a0443b0.jpg.webp"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-top: 69px; 
+    height: 100vh; 
+    max-height: 665px; 
+   } 
+    
+   h2 { 
+    color: #ffffff; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+    align-content: center; 
+    font-size: 40px; 
+   } 
+   .travelCard { 
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    padding-top: 50px; 
+    height: 50vh; 
+    max-height: 450px; 
+    max-width: 700px; 
+    width: 100%; 
+    position: relative; 
+   } 
+   .BaliVtoroi { 
+    background-image: url("https://media1.tenor.com/m/2AbTsVzwdR4AAAAd/buttney-hedgehog.gif"); 
+   } 
+   .BaliTreti { 
+    background-image: url("https://media1.tenor.com/m/GJYsrYO1YhAAAAAd/%D1%91%D0%B6.gif"); 
+   } 
+   p { 
+    color: #ffffff; 
+    font-size: 30px; 
+    text-align: center; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+   } 
+    
+   .textminiinfa { 
+    margin-top: 20px; 
+    text-align: center; 
+    color: #000000; 
+    font-size: 25px; 
+    background-color: #b3a7a7; 
+    padding: 150px; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+    position: relative; 
+   } 
+    
+   footer { 
+    display: flex; 
+    justify-content: center; 
+    background-color: #472B37; 
+    padding: 6px; 
+    color: #fff; 
+   } 
+   .nanana { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 40px; 
+    margin-top: 20px; 
+   } 
+   form { 
+    position: absolute; 
+    bottom: 30px; 
+    right: 30px; 
+   } 
+    
+   .kupi { 
+    color: #ffffff;
+    background-image: linear-gradient(#472B37, #311f27); 
+    width: 190px; 
+    height: 40px; 
+    border-radius: 12px; 
+    border-style: dashed; 
+    position: absolute;
+    left: -650px;
+    bottom: 25px;
+   } 
+    
+   .aviasales { 
+    position: absolute; 
+    right: 40px; 
+    bottom: 40px; 
+   } 
+    
+   .preemka { 
+    text-align: center; 
+    background-color: #873428; 
+    padding: 100px; 
+    margin-top: 20px; 
+   } 
+    
+   .prem { 
+    display: inline; 
+    margin: 15px; 
+   } 
+    
+   body { 
+    background-color: #d8d3d3; 
+   } 
+   .otzivi { 
+    text-align: center; 
+    margin-top: 20px; 
+    background-color: #96875f; 
+    position: relative; 
+   } 
+   .samiotzivi { 
+    text-align: left; 
+    justify-content: left; 
+   } 
+   .otziv { 
+    display: flex; 
+    margin-bottom: 20px; 
+    align-items: left; 
+    gap: 20px; 
+    padding: 15px; 
+    margin-left: 40px; 
+   } 
+    
+   .sectionContent { 
+    animation: move 2s 1; 
+   } 
+    
+   @keyframes move { 
+    0% { 
+     opacity: 0; 
+     transform: translateX(0); 
+    } 
+    100% { 
+     opacity: 1; 
+     transform: translateX(100px); 
+    } 
+   }
+   .namnam{
+    position: absolute;
+    left: 130px;
+    bottom: -5px;
+   }
